@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 
 const Login = () => {
+    let background = localStorage.getItem('theme-img');
     return ( 
-        <section id="login" >
+        <section id="login" style={{ backgroundImage: `url(${background})`}}>
             <Link to="/" className="links">
                 <div id="back-btn">
                     <span className="fa fa-arrow-left"></span> Back 

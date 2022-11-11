@@ -16,7 +16,6 @@ const WindowModal = () => {
       <Modal
         show={show}
         onHide={handleClose}
-        backdrop="static"
         keyboard={false}
         dialogClassName="modal-transparent"
         size="lg"

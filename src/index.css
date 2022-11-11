@@ -7,7 +7,7 @@
   height: 100%;
   background-image: url('./assets/backgrounds/banner8.jpg');
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -53,9 +53,17 @@
   text-shadow: 1px 1.2px #333;
 }
 
+.modal{
+  background-color: #00000088;
+}
+
 /* .modal-transparent{
   padding: 50px 300px;
 } */
+
+.modal-transparent{
+  /* background-color: #ffffff88; */
+}
 
 .modal-transparent div{
     background-color: transparent;
@@ -146,15 +154,9 @@ label {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    144.39deg,
-    #ffffff -278.56%,
-    #04b364 -78.47%,
-    #264b3f 91.61%
-  );
-  /* background-image: url('./assets/backgrounds/banner4.jpg'); */
+  background-color: #33300033;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -198,7 +200,7 @@ label {
   width: 100%;
   height: 100%;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
 }
