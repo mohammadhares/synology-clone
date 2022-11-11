@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import React from 'react';
+import { BrowserRouter as Router , Route , Routes  } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+import Home from './components/Home/Home';
+import Login from './components/Home/Login';
+import Package from './components/Home/Package';
+import ControlPanel from './components/Home/Control';
+import FileStation from './components/Home/FileStation';
+import HelpDesk from './components/Home/HelpDisk';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+          <Routes>
+              <Route path='/' element={ <Home />} />
+              <Route path='/package-center' element={ <Package />} />
+              <Route path='/control-panel' element={ <ControlPanel />} />
+              <Route path='/file-station' element={ <FileStation />} />
+              <Route path='/help-disk' element={ <HelpDesk />} />
+              <Route path='/login' element={ <Login />} />
+          </Routes>
+      </Router>
     </div>
   );
 }
