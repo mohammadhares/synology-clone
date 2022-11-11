@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import SmallIcon from "../Icons/SmallIcon";
-import { menus } from "../../constants/constants";
+import {menus} from "../../data/store";
 import MenuItem from "../Icons/MenuItem";
 
 const WindowModal = () => {

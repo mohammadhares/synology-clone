@@ -1,5 +1,5 @@
-import {banner1, banner2 , banner3 , banner4 , banner5 , banner6 , banner7 , banner8 , banner9} from "./../assets/backgrounds";
-import { packages, controlPanel , folders , helpDesk } from "./../assets/icons";
+import {banner1, banner2 , banner3 , banner4 , banner5 , banner6 , banner7 , banner8 , banner9} from "../assets/backgrounds";
+import { packages, controlPanel , folders , helpDesk } from "../assets/icons";
 
 export const banners = [
     {

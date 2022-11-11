@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import SmallIcon from "../Icons/SmallIcon";
-import { banners } from "../../constants/constants";
+import {banners} from "../../data/store";
 
 const GallaryModal = ( props ) => {
   const [show, setShow] = useState(false);

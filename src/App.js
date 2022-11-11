@@ -3,12 +3,12 @@ import React from 'react';
 import { BrowserRouter as Router , Route , Routes  } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
-import Home from './components/Home/Home';
-import Login from './components/Home/Login';
-import Package from './components/Home/Package';
-import ControlPanel from './components/Home/Control';
-import FileStation from './components/Home/FileStation';
-import HelpDesk from './components/Home/HelpDisk';
+import Home from './components/Pages/Home';
+import Login from './components/Pages/Login';
+import Package from './components/Pages/Package';
+import ControlPanel from './components/Pages/Control';
+import FileStation from './components/Pages/FileStation';
+import HelpDesk from './components/Pages/HelpDisk';
 
 
 function App() {

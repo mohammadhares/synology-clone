@@ -1,10 +1,10 @@
 import React, {Component} from "react";
 import { Link } from "react-router-dom";
-import { menus } from "../../constants/constants";
+import { menus } from "../../data/store";
 import MenuItem from "../Icons/MenuItem";
 import SmallIcon from "../Icons/SmallIcon";
-import GallaryModal from "../window/GallaryModal";
-import WindowModal from "../window/windowModal";
+import GallaryModal from "../Modals/GallaryModal";
+import WindowModal from "../Modals/windowModal";
 import { backgroundImage } from "../../assets/backgrounds";
 
 class Home extends Component {
