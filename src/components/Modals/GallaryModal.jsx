@@ -30,7 +30,7 @@ const GallaryModal = ( props ) => {
             <br />
             <hr />
             <br />
-          <div>
+          <div className="text-center ml-5">
             {banners.map((image) => (
               <div className=" col-2 item m-2" key={image.id}>
                 <img onClick={() => props.onChangeBackground(image.img)} className="img img-responsive img-gallary" src={image.img} alt="" />

@@ -1,4 +1,5 @@
-import {banner1, banner2 , banner3 , banner4 , banner5 , banner6 , banner7 , banner8 , banner9} from "../assets/backgrounds";
+import {banner1, banner2 , banner3 , banner4 , banner5 , banner6 , banner7 , banner8 , banner9 , banner10 , banner11 , banner12 , banner13 } 
+from "../assets/backgrounds";
 import { packages, controlPanel , folders , helpDesk } from "../assets/icons";
 
 export const banners = [
@@ -38,7 +39,22 @@ export const banners = [
         id: 9,
         img: banner9 
     },
-    
+    {
+        id: 10,
+        img: banner10 
+    },
+    {
+        id: 11,
+        img: banner11
+    },
+    {
+        id: 12,
+        img: banner12
+    },
+    {
+        id: 13,
+        img: banner13
+    },
 ];
 
 
