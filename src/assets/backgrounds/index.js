@@ -7,10 +7,10 @@ import banner6 from './banner6.jpg';
 import banner7 from './banner7.jpg';
 import banner8 from './banner8.jpg';
 import banner9 from './banner9.jpg';
-import banner10 from './banner9.jpg';
-import banner11 from './banner9.jpg';
-import banner12 from './banner9.jpg';
-import banner13 from './banner9.jpg';
+import banner10 from './banner10.jpg';
+import banner11 from './banner11.jpg';
+import banner12 from './banner12.jpg';
+import banner13 from './banner13.jpg';
 
 
 
@@ -28,7 +28,7 @@ export {
     banner10,
     banner11,
     banner12,
-    banner13,
+    banner13
 }
 
 
